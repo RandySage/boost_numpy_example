@@ -1,7 +1,7 @@
 #! /usr/bin/env python
-import qf
+import build.libnbp as nbp
 
-test = qf.test_wrap()
+test = nbp.test_wrap()
 print("values has type %s" % test.values.__class__)
 print("values has len %d" % len(test.values))
 print("values is %s" % str(test.values))
